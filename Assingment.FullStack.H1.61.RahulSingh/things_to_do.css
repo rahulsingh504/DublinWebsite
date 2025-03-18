@@ -1,0 +1,70 @@
+/* things_to_do.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Paragraph styles */
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Image styles */
+img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Classes for specific styling */
+.highlight {
+    background-color: #ffeb3b;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.bold-text {
+    font-weight: bold;
+}
